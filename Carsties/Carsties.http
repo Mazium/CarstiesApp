@@ -1,0 +1,6 @@
+@Carsties_HostAddress = http://localhost:5085
+
+GET {{Carsties_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
