@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsties.Api", "Carsties\Carsties.Api.csproj", "{B4B4BF36-9212-44E4-99DD-0B238036AA8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carsties.Api", "Carsties\Carsties.Api.csproj", "{B4B4BF36-9212-44E4-99DD-0B238036AA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsties.Domain", "Model\Carsties.Domain.csproj", "{166F6544-129E-4B89-8B04-966E7EC458C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carsties.Domain", "Model\Carsties.Domain.csproj", "{166F6544-129E-4B89-8B04-966E7EC458C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsties.Data", "Data\Carsties.Data.csproj", "{C50DA808-F5AC-45D3-9A92-816E2D48974A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carsties.Data", "Data\Carsties.Data.csproj", "{C50DA808-F5AC-45D3-9A92-816E2D48974A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carsties.Core", "Core\Carsties.Core.csproj", "{EF381213-9C20-45CE-A6C2-FDE1FE3B14A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carsties.Core", "Core\Carsties.Core.csproj", "{EF381213-9C20-45CE-A6C2-FDE1FE3B14A5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{570FDA1E-A772-43B9-9C68-D07E2D0EA572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EF381213-9C20-45CE-A6C2-FDE1FE3B14A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF381213-9C20-45CE-A6C2-FDE1FE3B14A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF381213-9C20-45CE-A6C2-FDE1FE3B14A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570FDA1E-A772-43B9-9C68-D07E2D0EA572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570FDA1E-A772-43B9-9C68-D07E2D0EA572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570FDA1E-A772-43B9-9C68-D07E2D0EA572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570FDA1E-A772-43B9-9C68-D07E2D0EA572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

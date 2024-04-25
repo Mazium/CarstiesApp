@@ -11,14 +11,14 @@ namespace Carsties.Data.DTOs.Auction
         public decimal SoldAmount { get; set; }
         public decimal CurrentHighBid { get; set; }
         public int ReservePrice { get; set; }
-        public string? Seller { get; set; }
-        public string? Winner { get; set; }
-        public string? Status { get; set; }
-        public string? Make { get; set; }
-        public string? Model { get; set; }
+        public string Seller { get; set; }
+        public string Winner { get; set; }
+        public string Status { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
         public int Year { get; set; }
-        public string? Color { get; set; }
+        public string Color { get; set; }
         public int Mileage { get; set; }
-        public string? ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

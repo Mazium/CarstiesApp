@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  carsties.api:
+    image: ${DOCKER_REGISTRY-}carstiesapi
+    build:
+      context: .
+      dockerfile: Carsties/Dockerfile
+  
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: 1234
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./.containers/carsties-db:/var/lib/postgresql/data
