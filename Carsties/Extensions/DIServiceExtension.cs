@@ -1,4 +1,5 @@
-﻿using Carsties.Data.Context;
+﻿using Carsties.Api.MapperProfile;
+using Carsties.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Carsties.Api.Extensions
@@ -10,6 +11,8 @@ namespace Carsties.Api.Extensions
             // Register DbContext
             services.AddDbContext<CarstiesDbContext>(options =>
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         public static void ApplyMigrations(this IApplicationBuilder app)
